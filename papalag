@@ -157,7 +157,7 @@ do
         elseif instanceType == "Circle" or instanceType == "circle" then
             local circle = Drawing.new("Circle")
             circle.Visible = false
-            circle.Color = Color3.fromRGB(255, 0, 0)
+            circle.Color = Color3.fromRGB(45, 14, 102)
             circle.Thickness = 1
             circle.NumSides = 30
             circle.Filled = true
@@ -1788,7 +1788,7 @@ do
         function toggle:Colorpicker(info)
             local info = info or {}
             local cpinfo = info.info or info.Info or name
-            local def = info.def or info.Def or info.default or info.Default or Color3.fromRGB(255, 0, 0)
+            local def = info.def or info.Def or info.default or info.Default or Color3.fromRGB(45, 14, 102)
             local transp = info.transparency or info.Transparency or info.transp or info.Transp or info.alpha or info.Alpha or nil
             local pointer = info.pointer or info.Pointer or info.flag or info.Flag or nil
             local callback = info.callback or info.callBack or info.Callback or info.CallBack or function()end
@@ -3917,7 +3917,7 @@ do
         function colorpicker:Colorpicker(info)
             local info = info or {}
             local cpinfo = info.info or info.Info or name
-            local def = info.def or info.Def or info.default or info.Default or Color3.fromRGB(255, 0, 0)
+            local def = info.def or info.Def or info.default or info.Default or Color3.fromRGB(45, 14, 102)
             local transp = info.transparency or info.Transparency or info.transp or info.Transp or info.alpha or info.Alpha or nil
             local pointer = info.pointer or info.Pointer or info.flag or info.Flag or nil
             local callback = info.callback or info.callBack or info.Callback or info.CallBack or function()end
